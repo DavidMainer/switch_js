@@ -1,0 +1,51 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 90deg ,rgb(0, 6, 9) ,rgb(5, 5, 0));
+    color: rgb(199, 148, 52);
+    backdrop-filter: blur(50px);
+
+}
+.header{ 
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    background-image: linear-gradient( 120deg,rgb(18, 1, 1),rgba(0, 0, 0, 0));
+    background-size: 20px;
+    
+
+}
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0px 20px;
+    
+}
+.list ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+     
+}
+.list li a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+a[target="_blank"]::after {
+    content: " ↗";
+    font-size: 0.7em;
+}   
+
+.list li {
+   
+    cursor: pointer;
+}
